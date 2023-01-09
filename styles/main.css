@@ -32,8 +32,6 @@ h1 {
     font-weight: 800;
     padding-top: 5vh;
     padding-left: 5vw;
-    padding-right: auto;
-    padding-bottom: auto;
 }
 
 img#header-image {
@@ -67,10 +65,10 @@ footer {
 }
 
 footer h3 {
-    color: #E4959E;
+    color: white;
 }
 
 footer h4 {
-    color: #E4959E;
+    color: white;
     font-weight: 300;
 }
