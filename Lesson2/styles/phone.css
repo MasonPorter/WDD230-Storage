@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
 html, body, div, span, h1, h2, h3, h4, h5, h6, p,
 a, em, img, dl, dt, dd, ol, ul, li, form, label, 
 tbody, tfoot, thead, tr, th, td,
@@ -5,4 +9,44 @@ article, aside, footer, header, menu, nav, section {
 	margin: 0;
 	padding: 0;
 	border: 0;
+}
+
+header {
+    background-color:#37515F;
+    padding: 2vh 0px;
+}
+
+header h1 {
+    font-size: 5vw;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 5vw;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer {
+    padding: 1.5vh 0px;
+    background-color: #37515F;
+}
+
+footer h3 {
+    font-size: 3vw;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
