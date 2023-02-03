@@ -6,3 +6,12 @@ article, aside, footer, header, menu, nav, section {
 	padding: 0;
 	border: 0;
 }
+
+nav {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.logo {
+	width: 10vh;
+}

@@ -1,8 +1,7 @@
 const currentDate = new Date();
 let year = currentDate.getFullYear();
-let lastUpdate = currentDate.toLocaleString();
-let lastModified = currentDate(document.lastModified);
+//let lastUpdate = currentDate.toLocaleString();
 
 document.querySelector('#copyright').textContent = year;
-document.querySelector('#time').textContent = lastUpdate;
-document.querySelector('#LastMod').textContent = lastModified;
+document.querySelector('#lastMod').textContent = document.lastModified;
+//document.querySelector('#time').textContent = lastUpdate;
