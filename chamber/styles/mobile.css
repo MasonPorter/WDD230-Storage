@@ -116,6 +116,56 @@ a.social img {
 	vertical-align: middle;
 }
 
+section#hero {
+    overflow: hidden;
+	display: grid;
+	grid-template-columns: 100vw;
+	grid-template-rows: repeat(6, 10vh);
+}
+
+#hero img {
+	height: 60vh;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	grid-column: 1/2;
+	grid-row: 1/7;
+}
+
+#hero h3 {
+	display: block;
+	font-family: 'Inter', sans-serif;
+	font-size: 10vh;
+	color: #F7F7FF;
+	padding-left: 4vw;
+	line-height: 1.1;
+	grid-column: 1/2;
+	grid-row: 1/7;
+	position: relative;
+	background-color: rgba(53, 54, 69, .6);
+}
+
+#hero a {
+	grid-column: 1/2;
+	grid-row: 5/7;
+	position: relative;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+	font-size: 6vw;
+	font-weight: 600;
+	text-decoration: none;
+	border-radius: 12px;
+	border: 5px solid #EA526F;
+	color: #EA526F;
+	align-self: center;
+	width: 40vw;
+	margin-left: 4vw;
+	padding: 3vw;
+}
+
+#hero a:hover, #hero a:active {
+	background-color: #F7F7FF;
+}
+
 footer {
 	display: grid;
 	grid-template-columns: 25% 75%;
