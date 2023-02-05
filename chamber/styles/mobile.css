@@ -150,12 +150,12 @@ section#hero {
 	position: relative;
 	text-align: center;
 	font-family: 'Inter', sans-serif;
-	font-size: 6vw;
+	font-size: 7vw;
 	font-weight: 600;
 	text-decoration: none;
 	border-radius: 12px;
-	border: 5px solid #EA526F;
-	color: #EA526F;
+	background-color: #EA526F;
+	color: #F7F7FF;
 	align-self: center;
 	width: 40vw;
 	margin-left: 4vw;
@@ -164,34 +164,25 @@ section#hero {
 
 #hero a:hover, #hero a:active {
 	background-color: #F7F7FF;
+	color: #EA526F;
 }
 
-#events, #news, #weather, #joinCall {
+#events, #news, #weather, #companyAd1, #companyAd2, #joinCall {
 	background-color: #23B5D3;
 	color: #353645;
 	text-align: center;
 	padding: 1vh 5vw;
 	font-family: 'Inter', sans-serif;
 	border-top: 4px solid #F7F7FF;
-}
-
-#events h3 {
-	font-size: 6vw;
 	line-height: 1.4;
-}
-
-#events h4 {
-	font-size: 4vw;
-	line-height: 1.4;
-}
-
-#events p {
-	font-size: 4vw;
-	line-height: 1.3;
 }
 
 hr {
 	color: #353645;
+}
+
+.companyImg {
+	width: 30vw;
 }
 
 #joinCall {
@@ -199,19 +190,23 @@ hr {
 }
 
 #joinCall a {
+	display: block;
+	width: 40vw;
 	text-align: center;
 	font-family: 'Inter', sans-serif;
 	font-size: 6vw;
 	font-weight: 600;
 	text-decoration: none;
 	border-radius: 12px;
-	border: 5px solid #EA526F;
-	color: #EA526F;
+	background-color: #EA526F;
+	color: #F7F7FF;
 	padding: 3vw;
+	margin: 1.5vh auto;
 }
 
 #joinCall a:hover, #joinCall a:active {
 	background-color: #F7F7FF;
+	color: #EA526F;
 }
 
 footer {
