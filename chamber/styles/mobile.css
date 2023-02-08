@@ -134,7 +134,8 @@ section#hero {
 #hero h3 {
 	display: block;
 	font-family: 'Inter', sans-serif;
-	font-size: 10vh;
+	padding-top: 2vh;
+	font-size: 9vh;
 	color: #F7F7FF;
 	padding-left: 4vw;
 	line-height: 1.1;
