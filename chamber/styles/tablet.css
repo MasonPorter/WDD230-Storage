@@ -1,3 +1,47 @@
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 780px) and (min-width: 575px) {
+    
+    .topHeader {
+        display: grid;
+        grid-template-columns: 22% 78%;
+    }
 
+    .logotop {
+        width: 12.5vh;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-family: 'Nunito', sans-serif;
+        align-self: center;
+        font-size: 7vw;
+    }
+
+    #currentDate {
+        font-size: 3vw;
+    }
+
+    .bottomHeader button {
+        font-size: 7vw;
+    }
+    
+    nav a {
+        font-size: 8.5vw;
+    }
+
+    #hero h3 {
+        padding: 2vh 4vw 0vh 4vw;
+    }
+
+    #hero a {
+        grid-column: 1/2;
+        grid-row: 4/7;
+        font-size: 6.5vw;
+        width: 40vw;
+        padding: 2vw;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 781px) {
+    
 }

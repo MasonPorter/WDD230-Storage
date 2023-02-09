@@ -119,14 +119,14 @@ a.social img {
 section#hero {
     overflow: hidden;
 	display: grid;
+	height: 60vh;
 	grid-template-columns: 100vw;
 	grid-template-rows: repeat(6, 10vh);
 }
 
-#hero img {
-	height: 60vh;
-	margin-left: 50%;
-	transform: translateX(-50%);
+#hero picture {
+	/*margin-left: 50%;
+	transform: translateX(-50%);*/
 	grid-column: 1/2;
 	grid-row: 1/7;
 }
