@@ -2,7 +2,7 @@
     
     .topHeader {
         display: grid;
-        grid-template-columns: 22% 78%;
+        grid-template-columns: 20% 80%;
     }
 
     .logotop {
@@ -40,8 +40,145 @@
         width: 40vw;
         padding: 2vw;
     }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #events, #weather {
+        border-top: 4px solid #F7F7FF;
+        border-right: 2px solid #F7F7FF;
+    }
+
+    #news, #joinCall {
+        border-top: 4px solid #F7F7FF;
+        border-left: 2px solid #F7F7FF;
+    }
+
+    .companyImg {
+        width: 25vw;
+    }
+
+    #joinCall a {
+        width: 28vw;
+        font-size: 5vw;
+        padding: 2vw;
+    }
+
+    footer {
+        grid-template-columns: 22% 78%;
+    }
+
+    .logobottom {
+        width: 12.5vh;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .footer-large {
+        display: none;
+    }
+
+    .footer-small p {
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 781px) {
+    .topHeader {
+        display: grid;
+        grid-template-columns: 15% 85%;
+    }
+
+    .logotop {
+        width: 12.5vh;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-family: 'Nunito', sans-serif;
+        align-self: center;
+        font-size: 5.75vw;
+    }
+
+    #currentDate {
+        font-size: 2vw;
+    }
+
+    .bottomHeader button {
+        font-size: 5vw;
+    }
     
+    nav a {
+        font-size: 7vw;
+    }
+
+    #hero h3 {
+        padding: 2vh 4vw 0vh 4vw;
+    }
+
+    #hero a {
+        grid-column: 1/2;
+        grid-row: 4/7;
+        font-size: 5.5vw;
+        width: 30vw;
+        padding: 1.5vw;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #events, #weather {
+        border-top: 4px solid #F7F7FF;
+        border-right: 2px solid #F7F7FF;
+    }
+
+    #news, #joinCall {
+        border-top: 4px solid #F7F7FF;
+        border-left: 2px solid #F7F7FF;
+    }
+
+    .companyImg {
+        width: 20vw;
+    }
+
+    #joinCall a {
+        width: 26vw;
+        font-size: 4vw;
+        padding: 1.5vw;
+    }
+
+    .logobottom {
+        width: 12.5vh;
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    footer {
+        grid-template-columns: 15% 85%;
+    }
+
+    .footer-small {
+        display: none;
+    }
+
+    .footer-large {
+        display: block;
+        margin: auto 0;
+    }
+
+    .footer-large p {
+        font-family: 'Nunito', sans-serif;
+        font-size: 4vw;
+        line-height: 1.4;
+        font-weight: 600;
+    }
+
+    .footer-large p {
+        font-size: 2vw;
+    }
 }

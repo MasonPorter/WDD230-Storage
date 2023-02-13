@@ -186,10 +186,6 @@ hr {
 	width: 30vw;
 }
 
-#joinCall {
-	height: 20vh;
-}
-
 #joinCall a {
 	display: block;
 	width: 40vw;
@@ -224,11 +220,15 @@ footer {
 	margin: 0 auto;
 }
 
-.footer p {
+.footer-small p {
 	font-family: 'Nunito', sans-serif;
 	font-size: 4vw;
 	line-height: 1.4;
 	font-weight: 600;
+}
+
+.footer-large {
+	display: none;
 }
 
 p a {
@@ -240,7 +240,7 @@ p a:hover, p a:active {
 	color: #F7F7FF;
 }
 
-.footer {
+.footer-small {
 	grid-column: 2/3;
 	align-self: center;
 }
