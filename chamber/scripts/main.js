@@ -13,7 +13,6 @@ if (bannerDay == 1) {
 
 document.querySelector('#copyright').textContent = year;
 document.querySelector('#lastMod').textContent = document.lastModified;
-document.querySelector('#lastMod2').textContent = document.lastModified;
 document.querySelector('#currentDate').textContent = day;
 
 function toggleMenu() {
