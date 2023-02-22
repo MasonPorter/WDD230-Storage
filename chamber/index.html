@@ -14,7 +14,12 @@
 <body>
     <header>
         <div class="topHeader">
-            <img class="logotop" src="images/MeridianChamberLogo.png" alt="Chamber Logo">
+            <picture>
+                <source srcset="images/MeridianChamberLogo90x90.webp" media="(max-width: 574px)">
+                <source srcset="images/MeridianChamberLogo130x130.webp" media="(max-width: 1000px)">
+                <source srcset="images/MeridianChamberLogo185x185.webp" media="(min-width: 1001px)">
+                <img src="images/MeridianChamberLogo.webp" alt="Chamber Logo">
+            </picture>
             <h1>Meridian Chamber of Commerce</h1>
         </div>
         <p id="meetbanner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
@@ -43,9 +48,10 @@
     <main>
         <section id="hero">
             <picture>
-                <source srcset="#" media="(max-width: 574px)">
-                <source srcset="#" media="(max-width: 1000px)">
-                <img src="images/meridianraceway.jpg" alt="Meridian Raceway">
+                <source srcset="images/meridianraceway550px.webp" media="(max-width: 574px)">
+                <source srcset="images/meridianraceway900px.webp" media="(max-width: 1000px)">
+                <source srcset="images/meridianraceway1200px.webp" media="(min-width: 1001px)">
+                <img src="images/meridianracewayscaled.jpg" alt="Meridian Raceway">
             </picture>
             <h3>Helping build the future, today.</h3>
             <a href="join.html">Join Today</a>

@@ -23,21 +23,24 @@ article, aside, footer, header, menu, nav, section {
 
 .topHeader {
 	display: grid;
-	grid-template-columns: 25% 75%;
+	grid-template-columns: 25vw 1fr;
+	grid-template-rows: 10vh;
 	background-color: #279AF1;
 	color: #F7F7FF;
 }
 
-.logotop {
-	width: 10vh;
-	align-self: center;
+.topHeader picture img {
+	display: flex;
 	margin: 0 auto;
+	padding: 5% 0;
+	height: 85%;
+	text-align: center;
 }
 
 h1 {
 	font-family: 'Nunito', sans-serif;
 	align-self: center;
-	font-size: 8vw;
+	font-size: 1.6em;
 }
 
 .bottomHeader {
@@ -135,8 +138,6 @@ section#hero {
 }
 
 #hero picture {
-	/*margin-left: 50%;
-	transform: translateX(-50%);*/
 	grid-column: 1/2;
 	grid-row: 1/7;
 }
