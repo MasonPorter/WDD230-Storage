@@ -16,6 +16,10 @@
         font-size: 1.1em;
     }
 
+    #currentDatedesktopview {
+        display: none;
+    }
+
     .bottomHeader button {
         font-size: 6vw;
     }

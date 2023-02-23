@@ -75,6 +75,10 @@ a.social img {
 	font-weight: 600;
 }
 
+#currentDatedesktopview {
+	display: none;
+}
+
 nav {
 	background-color: #23B5D3;
 }

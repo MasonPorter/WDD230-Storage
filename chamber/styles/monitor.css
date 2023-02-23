@@ -1,3 +1,85 @@
 @media screen and (min-width: 992px) {
+    .topHeader {
+        display: grid;
+        grid-template-columns: 10vw 1fr 24vw 12vw;
+        grid-template-rows: 11vh;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    a.social img {
+        height: 3.5vh;
+        padding: 0px 1vw;
+    }
+
+    #currentDate {
+        grid-column: 3/9;
+        font-family: 'Nunito', sans-serif;
+        font-size: 1.2em;
+        color: #F7F7FF;
+        margin: auto 0;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    #currentDatedesktopview {
+        display: block;
+        font-size: 1.1em;
+        font-family: 'Nunito', sans-serif;
+	    color: #F7F7FF;
+	    margin: auto 0;
+	    text-align: center;
+	    font-weight: 600;
+    }
+
+    #mainNav {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bottomHeader {
+        display: none;
+    }
+
+    .bottomHeader button {
+        display: none;
+    }
+
+    nav a {
+        display: block;
+        text-decoration: none;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 700;
+        font-size: 1.8em;
+        line-height: 1.6;
+        color: #F7F7FF;
+        text-align: center;
+        padding: 8px 2vw;
+    }
+
+    nav a:hover, nav a:active {
+        background-color: #EA526F;
+        color: #353645;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: 20% 60% 20%;
+    }
+
+    section#hero {
+        grid-column: 2/3;
+        grid-row: 1/2; 
+    }
+
+    #hero a {
+        grid-column: 1/2;
+        grid-row: 4/7;
+        font-size: 3vw;
+        width: 20vw;
+        padding: 2vw;
+    }
 
 }
