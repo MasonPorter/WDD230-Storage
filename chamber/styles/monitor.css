@@ -66,20 +66,80 @@
 
     .info-grid {
         display: grid;
-        grid-template-columns: 20% 60% 20%;
+        grid-template-columns: 25% 50% 25%;
+        grid-template-rows: repeat(3, 30vh);
+        gap: 4px;
     }
 
     section#hero {
         grid-column: 2/3;
-        grid-row: 1/2; 
+        grid-row: 1/3;
+        height: 100%;
+        border: none;
+    }
+
+    #hero h3 {
+        padding: 2vh 50vw 0vh 4vw;
     }
 
     #hero a {
         grid-column: 1/2;
         grid-row: 4/7;
-        font-size: 3vw;
-        width: 20vw;
-        padding: 2vw;
+        font-size: 2.5vw;
+        width: 14vw;
+        padding: 1.5vw;
+    }
+
+    #events {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        border: none;
+        padding: .5vh 2vw;
+    }
+
+    #weather {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        border: none;
+        padding: .5vh 2vw;
+    }
+
+    #news {
+        grid-column: 2/3;
+        grid-row: 3/4;
+        border: none;
+        padding: .5vh 2vw;
+    }
+
+    #joinCall {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        border: none;
+        padding: .5vh 2vw;
+    }
+
+    #joinCall a {
+        width: 12vw;
+        font-size: 2vw;
+        padding: 1vw;
+    }
+
+    #companyAd1 {
+        border: none;
+        padding: .5vh 2vw;
+    }
+    
+    #companyAd2 {
+        border: none;
+        padding: .5vh 2vw;
+    }
+
+    .companyImg {
+        width: 10vw;
+    }
+
+    footer {
+        font-size: 1.4em;
     }
 
 }
