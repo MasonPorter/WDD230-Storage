@@ -1,12 +1,21 @@
 table, thead, tr, th, tbody, td {
-    margin: 0;
     padding: 0;
     border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: sans-serif;
+}
+
+table {
+    width: 400px;
+    height: 200px;
 }
 
 #mainHead {
     background-color: black;
     color: white;
+    padding: 5px 0;
+    font-size: 1.2em;
 }
 
 .blank {
@@ -16,5 +25,24 @@ table, thead, tr, th, tbody, td {
 .columnHead {
     background-color: gray;
     color: white;
-    border: none;
+    font-size: 1.2em;
+}
+
+#rowOne {
+    background-color: #dfdfdf;
+    text-align: center;
+}
+
+#rowTwo {
+    background-color: #b9b9b9;
+    text-align: center;
+}
+
+#rowThree {
+    background-color: #dfdfdf;
+    text-align: center;
+}
+
+th[scope="row"] {
+    padding: 0 10px;
 }
