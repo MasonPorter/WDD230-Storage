@@ -68,7 +68,7 @@ a.social img {
 #currentDate {
 	grid-column: 3/9;
 	font-family: 'Nunito', sans-serif;
-	font-size: 4vw;
+	font-size: .9em;
 	color: #F7F7FF;
 	margin: auto 0;
 	text-align: center;
@@ -229,7 +229,7 @@ footer {
 }
 
 div.topFooter picture img {
-	height: 85%;
+	height: 10vh;
 }
 
 footer p a {
