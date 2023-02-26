@@ -244,3 +244,23 @@ footer p a {
 footer p a:hover, p a:active {
 	color: #F7F7FF;
 }
+
+#discover {
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+}
+
+#discover h3 {
+	padding-top: 2vh;
+	font-size: 1.4em;
+}
+
+#discover p {
+	padding-top: 1vh;
+	font-size: 1.2em;
+}
+
+#discover picture {
+	display: flex;
+	justify-content: center;
+}
