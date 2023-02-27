@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="stylesheet" href="styles/tablet.css">
     <link rel="stylesheet" href="styles/monitor.css">
-    <title>Join | Meridian Chamber of Commerce</title>
+    <title>Submitted | Meridian Chamber of Commerce</title>
 </head>
 <body>
     <header>
@@ -45,67 +45,8 @@
         </nav>
     </header>
 
-    <main id="join">
-        <form action="thankyou.html" method="get">
-            <fieldset>
-                <legend>Application Form</legend>
-                <ul>
-                    <li>
-                        <label>First Name:
-                            <input type="text" name="fname" required>
-                        </label>
-                    </li>
-                    <li>
-                        <label>Last Name:
-                            <input type="text" name="lname" required>
-                        </label>
-                    </li>
-                    <li>
-                        <label>Job Title:
-                            <input type="text" name="jobTitle" pattern="[A-Za-z -]" minlength="7">
-                        </label>
-                    </li>
-                    <li>
-                        <label>Email:
-                            <input type="email" name="email" placeholder="someone@yahoo.com" required>
-                        </label>
-                    </li>
-                    <li>
-                        <label>Phone:
-                            <input type="tel" name="phone" placeholder="1234567890" required>
-                        </label>
-                    </li>
-                    <li>
-                        <label>Business Name:
-                            <input type="text" name="BusinessName" required>
-                        </label>
-                    </li>
-                    <li>
-                        <label>Membership:
-                            <select name="Membership" required>
-                                <option value="">Please Select</option>
-                                <option value="NonProfit">Non-Profit</option>
-                                <option value="Bronze">Bronze</option>
-                                <option value="Silver">Silver</option>
-                                <option value="Gold">Gold</option>
-                            </select>
-                        </label>
-                    </li>
-                    <li>
-                        <label>Business Description:
-                            <textarea name="BusinessDesc"></textarea>
-                        </label>
-                    </li>
-                    <li>
-                        <label>
-                            <input id="hidden" type="hidden" name="DateTime">
-                        </label>
-                    </li>
-                </ul>
-            </fieldset>
+    <main>
 
-            <input type="submit" value="Apply Today">
-        </form>
     </main>
 
     <footer>
@@ -125,6 +66,5 @@
         </div>
     </footer>
     <script src="scripts/main.js"></script>
-    <script src="scripts/join.js"></script>
 </body>
 </html>
