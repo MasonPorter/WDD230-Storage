@@ -1,4 +1,8 @@
 @media screen and (min-width: 992px) {
+    #meetbanner {
+        font-size: 1.3em;
+    }
+    
     .topHeader {
         display: grid;
         grid-template-columns: 10vw 1fr 24vw 12vw;

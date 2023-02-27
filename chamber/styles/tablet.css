@@ -1,4 +1,7 @@
 @media screen and (max-width: 991px) and (min-width: 576px) {
+    #meetbanner {
+        font-size: 1.2em;
+    }
     
     .topHeader {
         display: grid;
