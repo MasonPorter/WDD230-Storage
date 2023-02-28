@@ -51,39 +51,40 @@
                 <legend>Application Form</legend>
                 <ul>
                     <li>
-                        <label>First Name:
+                        <label class="formTop">First Name:
                             <input type="text" name="fname" required>
                         </label>
                     </li>
                     <li>
-                        <label>Last Name:
+                        <label class="formTop">Last Name:
                             <input type="text" name="lname" required>
                         </label>
                     </li>
                     <li>
-                        <label>Job Title:
-                            <input type="text" name="jobTitle" minlength="7">
+                        <label class="formTop">Job Title:
+                            <input type="text" name="jobTitle" pattern="[a-zA-Z\- ]{7,}"
+                                title="7 or more characters required. You cannot use numbers or symbols">
                         </label>
                     </li>
                     <li>
-                        <label>Email:
+                        <label class="formTop">Email:
                             <input type="email" name="email" placeholder="someone@yahoo.com" required>
                         </label>
                     </li>
                     <li>
-                        <label>Phone:
+                        <label class="formTop">Phone:
                             <input type="tel" name="phone" placeholder="1234567890" required>
                         </label>
                     </li>
                     <li>
-                        <label>Business Name:
+                        <label class="formTop">Business Name:
                             <input type="text" name="BusinessName" required>
                         </label>
                     </li>
                     <li>
-                        <label>Membership:
+                        <label class="formTop">Membership:
                             <select name="Membership" required>
-                                <option value="">Please Select</option>
+                                <option value="">Select One</option>
                                 <option value="NonProfit">Non-Profit</option>
                                 <option value="Bronze">Bronze</option>
                                 <option value="Silver">Silver</option>
@@ -92,7 +93,7 @@
                         </label>
                     </li>
                     <li>
-                        <label>Business Description:
+                        <label class="formTop">Business Description:
                             <textarea name="BusinessDesc"></textarea>
                         </label>
                     </li>
@@ -102,10 +103,40 @@
                         </label>
                     </li>
                 </ul>
+                <input type="submit" value="Apply for Application" class="formSubmit">
             </fieldset>
-
-            <input type="submit" value="Apply Today">
         </form>
+
+        <div id="membership">
+            <h3>Membership Tiers</h3>
+
+            <h4>Non-Profit | $0</h4>
+            <ul>
+                <li>Access to events</li>
+                <li>Access to advertising</li>
+            </ul>
+
+            <h4>Bronze | $50/month</h4>
+            <ul>
+                <li>15% discounts on events</li>
+                <li>10% discount on advertising</li>
+            </ul>
+            
+            <h4>Silver | $100/month</h4>
+            <ul>
+                <li>25% discount on events</li>
+                <li>15% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+            </ul>
+            
+            <h4>Gold | $150/month</h4>
+            <ul>
+                <li>50% discount on events</li>
+                <li>50% discount on advertising</li>
+                <li>Free participation in the trade fair</li>
+                <li>5 free featured ads per year, 1 free training per quarter</li>
+            </ul>
+        </div>
     </main>
 
     <footer>

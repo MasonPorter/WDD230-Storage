@@ -146,4 +146,10 @@
         font-size: 1.4em;
     }
 
+    /*Join.html*/
+    #join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-top: 3px solid #F7F7FF;
+    }
 }
