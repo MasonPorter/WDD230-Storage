@@ -1,0 +1,85 @@
+{
+    "businesses": [
+      {
+        "name": "Metro Express Car Wash, LLC",
+        "address": "1725 E Overland Road, Meridian, ID 83642",
+        "phone": "(208) 820-2077",
+        "url": "https://www.metroexpresscarwash.com/",
+        "order": 1,
+        "membership": "Gold",
+        "image": "images/Metro-Express-Logo.jpg"
+      },
+      {
+        "name": "Ada Country Highway District",
+        "address": "3775 Adams Street, Garden City, ID 83714",
+        "phone": "(208) 387-6100",
+        "url": "http://www.achdidaho.org/",
+        "order": 2,
+        "membership": "Silver",
+        "image": "images/adacountryhighwaybanner.jpg"
+      },
+      {
+        "name": "Clearwater Financial",
+        "address": "1996 E Handel Court, Meridian, ID 83646",
+        "phone": "(208) 559-4353",
+        "url": "https://clearwaterfinancial.biz/",
+        "order": 3,
+        "membership": "Silver",
+        "image": "images/clearwater_financial_logo.png"
+      },
+      {
+        "name": "Clear River Legal, LLC",
+        "address": "3100 N Lakeharbor Lane, Suite 160, Boise, Idaho 83703",
+        "phone": "(208) 600-0702",
+        "url": "https://clearriverlegal.com/",
+        "order": 4,
+        "membership": "Bronze",
+        "image": "images/clearriverlogo.jpg"
+      },
+      {
+        "name": "Meridian Veterinary Hospital",
+        "address": "421 W Franklin Road, Meridian, ID 83642",
+        "phone": "(208) 888-3444",
+        "url": "https://meridianvethospital.com/",
+        "order": 5,
+        "membership": "Gold",
+        "image": "images/meridian-vet-logo-425.webp"
+      },
+      {
+        "name": "A-1 Heating & Air Coditioning",
+        "address": "327 N Linder Road, Meridian, ID 83642",
+        "phone": "(208) 343-4445",
+        "url": "https://a1heating.com/",
+        "order": 6,
+        "membership": "Silver",
+        "image": "images/A1-logo.jpg"
+      },
+      {
+        "name": "Albertsons Market Street",
+        "address": "3499 E Fairview Avenue, Meridian, ID 83642",
+        "phone": "(208) 605-3752",
+        "url": "https://www.albertsons.com/",
+        "order": 7,
+        "membership": "Non-Profit",
+        "image": "images/Albertsons.png"
+      },
+      {
+        "name": "Louie's Pizza & Italian Restaurant",
+        "address": "2500 E Fairview Avenue, Meridian, ID 83642",
+        "phone": "(208) 884-2500",
+        "url": "https://www.louiespizza.com/",
+        "order": 8,
+        "membership": "Bronze",
+        "image": "images/Louie.png"
+      },
+      {
+        "name": "Michaella Franklin Security, LLC",
+        "address": "2118 W Rosten Avenue, Nampa, ID 83686",
+        "phone": "(208) 283-5624",
+        "url": "http://michaellafranklinsecurity.com/",
+        "order": 9,
+        "membership": "Non-Profit",
+        "image": "images/security.jpeg"
+      }
+    ]
+  }
