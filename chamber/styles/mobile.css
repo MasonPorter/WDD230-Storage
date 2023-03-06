@@ -381,3 +381,52 @@ footer p a:hover, p a:active {
 	padding: 0 15vw 5vh 15vw;
 	line-height: 1.5;
 }
+
+/*Directory*/
+.cards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.cards section {
+	background-color: #a7d6fa;
+	border: 5px solid #279AF1;
+	color: #353645;
+	border-radius: 10px;
+	width: 300px;
+	height: 400px;
+    margin: .5em;
+    padding: 1em;
+}
+
+.cards section img {
+	max-width: 280px;
+	max-height: 100px;
+}
+
+.cards section h2 {
+	font-size: 1.6em;
+	font-weight: 800;
+	padding-bottom: 2vh;
+}
+
+.cards section h3 {
+	font-size: 1.4em;
+	font-weight: 800;
+	padding: 2vh 0;
+}
+
+.cards section h5 {
+	font-size: .8em;
+	font-weight: 800;
+	padding: 2vh 0;
+}
+
+.cards section p {
+    font-size: 1.2em;
+    line-height: 1.4;
+}
