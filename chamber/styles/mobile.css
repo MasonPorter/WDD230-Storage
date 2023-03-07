@@ -451,6 +451,7 @@ footer p a:hover, p a:active {
 }
 
 .rows {
+	display: none;
 	font-family: 'Inter', sans-serif;
 	margin: 0 auto;
 	font-size: 1.1em;

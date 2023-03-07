@@ -69,20 +69,32 @@ const gridDisplayDirectory = (businesses) => {
   });
 };
 
-// const gridbutton = document.querySelector("#grid");
-// const listbutton = document.querySelector("#list");
-// const displaycards = document.querySelector("div.cards");
-// const displayrows = document.querySelector("div.rows");
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
 
-// gridbutton.addEventListener("click", () => {
-// 	// example using arrow function
-// 	displaycards.classList.add("grid");
-// 	displayrows.classList.remove("list");
-// });
+gridbutton.addEventListener("click", showGrid);
+listbutton.addEventListener("click", showList);
 
-// listbutton.addEventListener("click", showList); // example using defined function
+function showGrid() {
+    let x = document.querySelector('.cards');
+    let y = document.querySelector('.rows');
+    if (x.style.display == "none") {
+        x.style.display = "flex";
+        y.style.display = "none";
+    } else {
+        x.style.display = "flex";
+        y.style.display = "none";
+    }
+}
 
-// function showList() {
-// 	displaycards.classList.add("list");
-// 	displayrows.classList.remove("grid");
-// }
+function showList() {
+    let x = document.querySelector('.cards');
+    let y = document.querySelector('.rows');
+    if (y.style.display == "none") {
+        x.style.display = "none";
+        y.style.display = "table";
+    } else {
+        x.style.display = "none";
+        y.style.display = "table";
+    }
+}
