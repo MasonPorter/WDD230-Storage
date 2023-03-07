@@ -5,6 +5,7 @@ async function getDirectoryData() {
     const data = await response.json();
     console.table(data.businesses);  // note that we reference the prophet array of the data object given the structure of the json file
     displayDirectory(data.businesses);
+    gridDisplayDirectory(data.businesses);
   }
   
 getDirectoryData();
@@ -42,4 +43,46 @@ const displayDirectory = (businesses) => {
   
       cards.appendChild(card);
     } // end of forEach loop
-  )} // end of function expression
+)} // end of function expression
+
+const gridDisplayDirectory = (businesses) => {
+    const rows = document.querySelector("table.rows");
+
+    businesses.forEach((business) => {
+        let tr = document.createElement('tr');
+        let td_name = document.createElement('td');
+        let td_address = document.createElement('td');
+        let td_phone = document.createElement('td');
+        let td_rank = document.createElement('td');
+
+        td_name.textContent = `${business.name}`;
+        td_address.textContent = `${business.address}`;
+        td_phone.textContent = `${business.phone}`;
+        td_rank.textContent = `${business.membership}`;
+
+        tr.appendChild(td_name);
+        tr.appendChild(td_rank);
+        tr.appendChild(td_address);
+        tr.appendChild(td_phone);
+
+        rows.appendChild(tr);
+  });
+};
+
+// const gridbutton = document.querySelector("#grid");
+// const listbutton = document.querySelector("#list");
+// const displaycards = document.querySelector("div.cards");
+// const displayrows = document.querySelector("div.rows");
+
+// gridbutton.addEventListener("click", () => {
+// 	// example using arrow function
+// 	displaycards.classList.add("grid");
+// 	displayrows.classList.remove("list");
+// });
+
+// listbutton.addEventListener("click", showList); // example using defined function
+
+// function showList() {
+// 	displaycards.classList.add("list");
+// 	displayrows.classList.remove("grid");
+// }

@@ -383,6 +383,25 @@ footer p a:hover, p a:active {
 }
 
 /*Directory*/
+#menu {
+	font-family: 'Inter', sans-serif;
+	text-align: center;
+	padding-top: 1vh;
+	font-size: 1.3em;
+}
+
+#menu button {
+	background-color: #EA526F;
+	border: none;
+	color: #F7F7FF;
+}
+
+#menu button:active {
+	background-color: #F7F7FF;
+	border: none;
+	color: #EA526F;
+}
+
 .cards {
 	display: flex;
 	flex-direction: row;
@@ -422,11 +441,26 @@ footer p a:hover, p a:active {
 
 .cards section h5 {
 	font-size: .8em;
-	font-weight: 800;
+	font-weight: 500;
 	padding: 2vh 0;
 }
 
 .cards section p {
     font-size: 1.2em;
     line-height: 1.4;
+}
+
+.rows {
+	font-family: 'Inter', sans-serif;
+	margin: 0 auto;
+	font-size: 1.1em;
+	padding: .5em;;
+}
+
+.rows tr {
+	background-color: #a7d6fa;
+}
+
+.rows tr td {
+	padding: .6em;
 }
