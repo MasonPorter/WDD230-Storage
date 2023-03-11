@@ -193,8 +193,22 @@ section#hero {
 	line-height: 1.4;
 }
 
-hr {
-	color: #353645;
+#temp-icon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 2vh 0;
+}
+
+#temp {
+	font-size: 2em;
+	padding-right: 1.5vw;
+	margin: auto 0;
+}
+
+#weather_icon {
+	width: 15vw;
+	margin: auto 0;
 }
 
 .companyImg {

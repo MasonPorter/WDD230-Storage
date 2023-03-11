@@ -73,6 +73,11 @@
         border-left: 2px solid #F7F7FF;
     }
 
+    #weather_icon {
+        width: 10vw;
+        margin: auto 0;
+    }
+
     #joinCall {
         grid-column: 1/3;
         border-top: 4px solid #F7F7FF;

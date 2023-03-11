@@ -108,6 +108,11 @@
         padding: .5vh 2vw;
     }
 
+    #weather_icon {
+        width: 5vw;
+        margin: auto 0;
+    }
+
     #news {
         grid-column: 2/3;
         grid-row: 3/4;
