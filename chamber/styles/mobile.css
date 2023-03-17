@@ -183,14 +183,26 @@ section#hero {
 	color: #EA526F;
 }
 
-#events, #news, #weather, #companyAd1, #companyAd2, #joinCall {
+#events, #news, #weather, #joinCall, .companyAd {
 	background-color: #23B5D3;
 	color: #353645;
 	text-align: center;
-	padding: 1vh 5vw;
+	padding: 1vh 6vw;
 	font-family: 'Inter', sans-serif;
 	border-top: 4px solid #F7F7FF;
 	line-height: 1.4;
+}
+
+.companyAd h4 {
+	padding-bottom: 1vh;
+}
+
+.companyImg {
+	width: 30vw;
+}
+
+.companyAdmobile {
+	display: none;
 }
 
 #temp-icon {
@@ -209,10 +221,6 @@ section#hero {
 #weather_icon {
 	width: 15vw;
 	margin: auto 0;
-}
-
-.companyImg {
-	width: 30vw;
 }
 
 #joinCall a {
