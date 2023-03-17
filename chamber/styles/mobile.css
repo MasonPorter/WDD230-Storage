@@ -137,13 +137,15 @@ section#hero {
     overflow: hidden;
 	display: grid;
 	height: 60vh;
-	grid-template-columns: 100vw;
+	grid-template-columns: 100%;
 	grid-template-rows: repeat(6, 10vh);
 }
 
 #hero picture {
+	display: grid;
 	grid-column: 1/2;
 	grid-row: 1/7;
+	place-content: center center;
 }
 
 #hero h3 {
@@ -152,12 +154,11 @@ section#hero {
 	padding-top: 2vh;
 	font-size: 9vh;
 	color: #F7F7FF;
+	background-color: rgba(53, 54, 69, .4);
 	padding-left: 4vw;
 	line-height: 1.1;
 	grid-column: 1/2;
 	grid-row: 1/7;
-	position: relative;
-	background-color: rgba(53, 54, 69, .6);
 }
 
 #hero a {
