@@ -136,7 +136,6 @@ nav a:hover, nav a:active {
 section#hero {
     overflow: hidden;
 	display: grid;
-	height: 60vh;
 	grid-template-columns: 100%;
 	grid-template-rows: repeat(6, 10vh);
 }
@@ -288,7 +287,7 @@ footer p a:hover, p a:active {
 #discover picture {
 	display: flex;
 	justify-content: center;
-}
+}	
 
 /*Join Page*/
 #join form {
