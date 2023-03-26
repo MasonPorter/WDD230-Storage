@@ -28,4 +28,20 @@ article, aside, footer, header, menu, nav, section {
 	max-width: 1200px;
 	display: flex;
 	margin: 0 auto;
+	padding-top: 2vh;
+}
+
+.tablet {
+	width: 70vw;
+	max-width: 768px;
+	display: flex;
+	margin: 0 auto;
+	padding-top: 2vh;
+}
+
+.mobile {
+	max-width: 400px;
+	display: flex;
+	margin: 0 auto;
+	padding-top: 2vh;
 }
