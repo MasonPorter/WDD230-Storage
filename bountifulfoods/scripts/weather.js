@@ -15,9 +15,7 @@ const numberCrunch = (data) => {
 
   let image = `https://raw.githubusercontent.com/visualcrossing/WeatherIcons/main/SVG/1st%20Set%20-%20Color/${data.currentConditions.icon}.svg`;
 
-  document.querySelector("#condition").textContent =
-    data.currentConditions.conditions;
+  document.querySelector("#condition").textContent = data.currentConditions.conditions;
   document.querySelector("#weather_icon").src = image;
-  document.querySelector("#weather_icon").alt =
-    data.currentConditions.conditions + " icon";
+  document.querySelector("#weather_icon").alt = data.currentConditions.conditions + " icon";
 };

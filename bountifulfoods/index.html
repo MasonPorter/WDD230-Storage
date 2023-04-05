@@ -23,41 +23,57 @@
             </div>
 
             <div id="social">
-                <a href="https://www.facebook.com/" target="_blank"><img src="images/f_logo_black_100x100.png" alt="Facebook Logo"></a>
-                <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter_black_100X100.png" alt="Twitter Logo"></a>
-                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_black_100x100.png" alt="Instagram Logo"></a>
+                <a href="https://www.facebook.com/" target="_blank"><img class="socialicon" src="images/f_logo_black_100x100.png" alt="Facebook Logo"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img class="socialicon" src="images/twitter_black_100X100.png" alt="Twitter Logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="socialicon" src="images/instagram_black_100x100.png" alt="Instagram Logo"></a>
             </div>
         
-            <ul class="menu-list">
+            <ul id="menu-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li><a href="about.html">About Us</a></li>
             </ul>
 
-            <div class="hamburger">
+            <div id="hamburger">
                 <button>&equiv;</button>
             </div>
         </nav>
     </header>
     <main>
         <div id="hero">
-            <h2>Fresh California Fruits at your Convenience.</h2>
-            <button>Place an Order</button>
+            <h2>Fresh Californian Fruits at your Convenience.</h2>
+            <a href="fresh.html"><button>Place an Order</button></a>
+        </div>
+        <div id="orderedDisplay">
+            <div id="orderElement">
+                <span id="ordersPlaced">0</span><p>ORDERS PLACED</p>
+            </div>
         </div>
         <div id="summary">
             <h3>Welcome to Carlsbad California!</h3>
             <p>California has somewhere between 1,100 and 1,264 miles of costal shore. while there isn't a consenus on exactly how much costal land California features, we are blessed to have a spot on it here in Carlsbad.</p>
             <p>Carlsbad sits in a convenient location between some of the best attractions and services found in the state of California.</p> 
-            <p>Carlsbad has beautiful sandy beaches, three lagoons, outstanding shopping and world-class sporting events. It features the LEGOLAND® theme park and the Flower Fields of Carlsbad Ranch that sports 50 acres of spectacular blooming flowers every spring. Home to many world-renowned golf equipment manufacturers, Carlsbad also features the storied La Costa golf courses with their long list of legendary tournaments and players. There is much to see and do!</p>
+            <p>Carlsbad features sandy beaches, three lagoons, outstanding shopping and world-class sporting events. Carlsbad is also home to the LEGOLAND® theme park and the Flower Fields of Carlsbad Ranch, a 50 acre patch of blooming flowers every spring. Home to many world-renowned golf equipment manufacturers, Carlsbad also features the storied La Costa golf courses. There is much to see and do!</p>
         </div>
         <div id="weather">
             <h3>Weather Forecast</h3>
             <h4>Carlsbad California</h4>
             <div id="temp-icon">
-                <h3 id="temp"><span id="t"></span>°F</h3>
+                <p id="temp"><span id="t"></span>°F</p>
+                <p id="condition"></p>
                 <img id="weather_icon" alt="">
             </div>
-            <h4 id="condition"></h4>
+            <div id="forecast">
+                <div id="forecastToday">
+                    <h4 id="today"><span id="todayMonth"></span> <span id="todayDate"></span></h4>
+                </div>
+                <div id="forecastTomorrow">
+                    <h4 id="tomorrow"><span id="tomorrowMonth"></span> <span id="tomorrowDate"></span></h4>
+                </div>
+                <div id="forecastOvermorrow">
+                    <h4 id="overmorrow"><span id="overmorrowMonth"></span> <span id="overmorrowDate"></span></h4>
+                </div>
+            </div>
         </div>
     </main>
     <footer>

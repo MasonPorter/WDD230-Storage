@@ -14,6 +14,37 @@ header {
 	background-color: #FCCCC5;
 }
 
+#mainNav {
+	display: grid;
+	grid-template-columns: 60px 1fr 60px;
+	grid-template-rows: 60px 1fr;
+	margin: 0 5vw;
+}
+
+#logo {
+	grid-column: 1/2;
+	grid-row: 1/2;
+}
+
+.socialicon {
+	width: 3em;
+}
+
+#social {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+#hamburger {
+	grid-column: 3/4;
+	grid-row: 1/2;
+}
+
+#menu-list {
+	grid-column: 1/4;
+	grid-row: 2/3;
+}
+
 #mainNav button {
 	font-weight: 700;
 	background: transparent;
@@ -41,6 +72,71 @@ header {
 	color: #F7F3F5;
 }
 
+/*Hero*/
+
+#hero {
+	background-color: #FCCCC5;
+	height: 46vh;
+}
+
+#hero h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.4;
+	padding: .8em 5vw;
+	color: #2B303A;
+}
+
+#hero button {
+	margin: 0 5vw;
+	background-color: #856EED;
+	color: #F7F3F5;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	border: none;
+	border-radius: 25px;
+	padding: 1em 2em;
+	cursor: pointer;
+}
+
+#hero button:hover, #hero button:active {
+	background-color: #F7F3F5;
+	color: #856EED;
+}
+
+#orderedDisplay {
+	background-color: #FCCCC5;
+	padding: .45em;
+}
+
+#orderElement {
+	display: grid;
+	align-content: center;
+	grid-template-columns: 1fr 1fr;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	border-radius: 10px;
+	width: 250px;
+	padding: .5em;
+	background-color: #F7F3F5;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#orderElement span#ordersPlaced {
+	grid-column: 1/2;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 2.2em;
+}
+
+#orderElement p {
+	margin: auto 0;
+}
+
 /*Index Summary*/
 
 #summary {
@@ -63,29 +159,67 @@ header {
 
 /*Index Weather*/
 
+#weather {
+	background-color: #F7F3F5;
+	color: #2B303A;
+}
+
 #weather h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.5em;
-	padding: .8em 5vw;
+	padding: .8em 5vw .2em;
 }
 
 #weather h4 {
 	font-family: 'Inter', sans-serif;
-	padding: .01em 5vw;
+	font-size: 1.1em;
+	padding: .2em 5vw;
 	line-height: 1.5;
+}
+
+#temp-icon {
+	padding: 0 5vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(6, 25px);
+}
+
+#temp {
+	font-family: 'Inter', sans-serif;
+	font-size: 2em;
+	font-weight: 600;
+	text-align: center;
+	margin: auto;
+	grid-column: 1/2;
+	grid-row: 2/4;
+}
+
+#condition {
+	font-family: 'Inter', sans-serif;
+	font-size: 1.4em;
+	font-weight: 600;
+	text-align: center;
+	margin: auto;
+	grid-column: 1/2;
+	grid-row: 4/6;
+}
+
+#weather_icon {
+	grid-column: 2/3;
+	grid-row: 1/7;
+	width: 100px;
+	margin: auto;
 }
 
 footer {
 	background-color: #FCCCC5;
+	color: #2B303A;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.1em;
 	font-weight: 500;
 	padding: .15em;
-}
-
-footer p {
-	padding: .5em;
+	line-height: 1.5;
 }
 /*---------------Site Plan-----------*/
 .siteplanHeads {
