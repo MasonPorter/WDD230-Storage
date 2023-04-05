@@ -41,6 +41,52 @@ header {
 	color: #F7F3F5;
 }
 
+/*Index Summary*/
+
+#summary {
+	background-color: #ACB493;
+	color: #2B303A;
+	padding-bottom: 1em;
+}
+
+#summary h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	padding: .8em 5vw;
+}
+
+#summary p {
+	font-family: 'Inter', sans-serif;
+	padding: .5em 5vw;
+	line-height: 1.5;
+}
+
+/*Index Weather*/
+
+#weather h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	padding: .8em 5vw;
+}
+
+#weather h4 {
+	font-family: 'Inter', sans-serif;
+	padding: .01em 5vw;
+	line-height: 1.5;
+}
+
+footer {
+	background-color: #FCCCC5;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.1em;
+	font-weight: 500;
+	padding: .15em;
+}
+
+footer p {
+	padding: .5em;
+}
 /*---------------Site Plan-----------*/
 .siteplanHeads {
 	font-family: "Montserrat", sans-serif;

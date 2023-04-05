@@ -12,37 +12,59 @@
 </head>
 <body>
     <header>
-        <div id="logo">
-            <picture>
-                <source srcset="images/BFLogo-40x40.png" media="(max-width: 575px)">
-                <source srcset="images/BFLogo-75x75.png" media="(max-width: 991px)">
-                <source srcset="images/BFLogo-150x150.png" media="(min-width: 992px)">
-                <img src="images/BFLogo-150x150.png" alt="Bountiful Foods Logo">
-            </picture>
-        </div>
-        <div id="social">
-            <a href="https://www.facebook.com/" target="_blank"><img src="" alt="Facebook Logo"></a>
-            <a href="https://www.twitter.com/" target="_blank"><img src="" alt="Twitter Logo"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="" alt="Instagram Logo"></a>
-        </div>
         <nav id="mainNav">
-            <button>&equiv;</button>
-            <ul>
+            <div id="logo">
+                <picture>
+                    <source srcset="images/BFLogo-40x40.png" media="(max-width: 575px)">
+                    <source srcset="images/BFLogo-75x75.png" media="(max-width: 991px)">
+                    <source srcset="images/BFLogo-100x100.png" media="(min-width: 992px)">
+                    <img src="images/BFLogo-100x100.png" alt="Bountiful Foods Logo">
+                </picture>
+            </div>
+
+            <div id="social">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/f_logo_black_100x100.png" alt="Facebook Logo"></a>
+                <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter_black_100X100.png" alt="Twitter Logo"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram_black_100x100.png" alt="Instagram Logo"></a>
+            </div>
+        
+            <ul class="menu-list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li><a href="about.html">About Us</a></li>
             </ul>
+
+            <div class="hamburger">
+                <button>&equiv;</button>
+            </div>
         </nav>
     </header>
     <main>
         <div id="hero">
             <h2>Fresh California Fruits at your Convenience.</h2>
+            <button>Place an Order</button>
+        </div>
+        <div id="summary">
+            <h3>Welcome to Carlsbad California!</h3>
+            <p>California has somewhere between 1,100 and 1,264 miles of costal shore. while there isn't a consenus on exactly how much costal land California features, we are blessed to have a spot on it here in Carlsbad.</p>
+            <p>Carlsbad sits in a convenient location between some of the best attractions and services found in the state of California.</p> 
+            <p>Carlsbad has beautiful sandy beaches, three lagoons, outstanding shopping and world-class sporting events. It features the LEGOLAND® theme park and the Flower Fields of Carlsbad Ranch that sports 50 acres of spectacular blooming flowers every spring. Home to many world-renowned golf equipment manufacturers, Carlsbad also features the storied La Costa golf courses with their long list of legendary tournaments and players. There is much to see and do!</p>
+        </div>
+        <div id="weather">
+            <h3>Weather Forecast</h3>
+            <h4>Carlsbad California</h4>
+            <div id="temp-icon">
+                <h3 id="temp"><span id="t"></span>°F</h3>
+                <img id="weather_icon" alt="">
+            </div>
+            <h4 id="condition"></h4>
         </div>
     </main>
     <footer>
-        <p>&copy;<span id="copyright"></span> Bountiful Foods</p>
+        <p>&copy;<span id="copyright"></span> Bountiful Foods | Mason P</p>
         <p>Last Modified: <span id="lastMod"></span></p>
     </footer>
     <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
